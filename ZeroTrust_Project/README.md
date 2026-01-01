@@ -27,9 +27,10 @@ The effectiveness of the Zero Trust model was verified through two primary test 
 #### **Test 1: Authorized Administrator Access**
 In this scenario, the user logs in as an Administrator. The system verifies the role, generates the necessary MFA token, and successfully retrieves data from the vault.
 
-![Authorized Access Result](/Screenshot/success.png)
+![Authorized Access Result](Screenshot/success.png)
 
 #### **Test 2: Unauthorized Guest Access (Security Enforcement)**
 In this scenario, a Guest user attempts to access the vault. The RBAC policy identifies the restricted role and denies the token generation, successfully blocking the access attempt.
 
-![Unauthorized Access Result](/Screenshot/failure.png)
+
+![Unauthorized Access Result](Screenshot/failure.png)
